@@ -1,0 +1,6 @@
+category: Games
+requires: cygwin glib gtk+ libintl8
+sdesc: "Tangram puzzle game"
+ldesc: "A GTK version of Tangram, an ancient chinese puzzle. 
+The object is to put 7 geometric shapes together so as to form a given 
+outline. All the pieces must bu used an should not overlap."

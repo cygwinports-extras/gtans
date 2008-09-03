@@ -1,0 +1,96 @@
+gtans
+-------------------------------------------
+A GTK version of Tangram, an ancient chinese puzzle. The object 
+is to put 7 geometric shapes together so as to form a given outline. All 
+the pieces must bu used an should not overlap.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  glib-1.2.10-4
+  gtk+-1.2.10-3
+  libintl8-0.15-1
+
+Build requirements:
+  binutils-20080624-2
+  cygport-0.4.0-1
+  gcc-core-3.4.4-3
+  gettext-devel-0.15-1
+  make-3.81-1
+
+Canonical homepage:
+  http://gtans.sourceforge.net/
+
+Canonical download:
+  http://downloads.sourceforge.net/gtans/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gtans-1.2-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gtans-1.2-X.cygport all
+
+This will create:
+  /usr/src/gtans-1.2-X-src.tar.bz2
+  /usr/src/gtans-1.2-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/gtans.exe
+  /usr/share/doc/gtans-1.2/AUTHORS
+  /usr/share/doc/gtans-1.2/COPYING
+  /usr/share/doc/gtans-1.2/HISTORY
+  /usr/share/doc/gtans-1.2/INSTALL
+  /usr/share/applications/gtans.desktop
+  /usr/share/gtans/figures/alpha.figures
+  /usr/share/gtans/figures/default.figures
+  /usr/share/gtans/figures/misc.figures
+  /usr/share/gtans/figures/similar.figures
+  /usr/share/gtans/gtanshelp.txt
+  /usr/share/gtans/gtanshelpcs.txt
+  /usr/share/gtans/gtanshelpes.txt
+  /usr/share/gtans/gtanshelpfr.txt
+  /usr/share/gtans/gtanshelppl.txt
+  /usr/share/gtans/gtanshelpru.txt
+  /usr/share/gtans/gtanshelpuk.txt
+  /usr/share/gtans/gtansrc
+  /usr/share/gtans/pixmaps/gtans_brightburtwood.xpm
+  /usr/share/gtans/pixmaps/gtans_brightwood.xpm
+  /usr/share/gtans/pixmaps/gtans_burtwood.xpm
+  /usr/share/gtans/pixmaps/gtans_paper.xpm
+  /usr/share/gtans/pixmaps/gtans_puzzle.xpm
+  /usr/share/gtans/pixmaps/gtans_recessed.xpm
+  /usr/share/gtans/pixmaps/gtans_rope.xpm
+  /usr/share/gtans/pixmaps/gtans_stones.xpm
+  /usr/share/gtans/pixmaps/gtans_volcanic.xpm
+  /usr/share/gtans/pixmaps/gtans_wood.xpm
+  /usr/share/locale/cs/LC_MESSAGES/gtans.mo
+  /usr/share/locale/es/LC_MESSAGES/gtans.mo
+  /usr/share/locale/fr/LC_MESSAGES/gtans.mo
+  /usr/share/locale/pl/LC_MESSAGES/gtans.mo
+  /usr/share/locale/ru/LC_MESSAGES/gtans.mo
+  /usr/share/locale/tr/LC_MESSAGES/gtans.mo
+  /usr/share/locale/uk/LC_MESSAGES/gtans.mo
+  /usr/share/man/man6/gtans.6.gz
+  /usr/share/pixmaps/gtans_icon.png
+
+------------------
+
+Port Notes:
+
+----- version 1.2-3 -----
+Rebuilt for gettext-0.15.
+
+----- version 1.2-2 -----
+Rebuilt for the new xorg-x11-based gtk+ port, with prefix of /usr.
+
+----- version 1.2-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

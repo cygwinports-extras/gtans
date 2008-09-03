@@ -1,0 +1,17 @@
+DESCRIPTION="GTK+ Tangram puzzle game"
+HOMEPAGE="http://gtans.sourceforge.net/"
+SRC_URI="mirror://sourceforge/gtans/${P}.tar.gz"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	cygmake
+}
+
+src_install() {
+	cd ${B}
+	cyginstall
+
+	rm -fr ${D}/usr/share/gnome/apps/
+	make_desktop_entry ${PN} gTans gtans_icon "Game;LogicGame"
+}
