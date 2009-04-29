@@ -5,23 +5,24 @@ is to put 7 geometric shapes together so as to form a given outline. All
 the pieces must bu used an should not overlap.
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libglib2.0_0-2.18.4-1
-  libgtk2.0_0-2.14.7-1
+  cygwin-1.7.0-45
+  libgcc1-4.3.2-2
+  libglib2.0_0-2.20.1-1
+  libgtk2.0_0-2.16.1-1
   libintl8-0.17-2
 
 Build requirements:
-  autoconf2.5-2.63-1
-  automake1.10-1.10.1-2
+  autoconf2.5-2.63-10
+  automake1.10-1.10.1-10
   binutils-20080624-2
-  cygport-0.4.3-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  gettext-devel-0.17-2
-  gnome-common-2.24.0-1
-  intltool-0.40.5-1
-  make-3.81-1
-  pkg-config-0.23a-2
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  gettext-devel-0.17-10
+  gnome-common-2.26.0-1
+  intltool-0.40.6-1
+  make-3.81-2
+  pkg-config-0.23b-10
   sed-4.1.5-2
 
 Canonical homepage:
@@ -51,12 +52,11 @@ Files included in the binary package:
   /etc/postinstall/gtans.sh
   /usr/bin/gtans.exe
   /usr/share/applications/gtans.desktop
-  /usr/share/doc/gtans-1.99.0/AUTHORS
-  /usr/share/doc/gtans-1.99.0/COPYING
-  /usr/share/doc/gtans-1.99.0/ChangeLog
-  /usr/share/doc/gtans-1.99.0/INSTALL
-  /usr/share/doc/gtans-1.99.0/NEWS
-  /usr/share/doc/gtans-1.99.0/README
+  /usr/share/doc/gtans/AUTHORS
+  /usr/share/doc/gtans/COPYING
+  /usr/share/doc/gtans/ChangeLog
+  /usr/share/doc/gtans/NEWS
+  /usr/share/doc/gtans/README
   /usr/share/gtans/figures/alpha.figures
   /usr/share/gtans/figures/default.figures
   /usr/share/gtans/figures/misc.figures
@@ -97,17 +97,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 1.99.0-1 -----
-First release of GTK2 port.
-
------ version 1.2-3 -----
-Rebuilt for gettext-0.15.
-
------ version 1.2-2 -----
-Rebuilt for the new xorg-x11-based gtk+ port, with prefix of /usr.
-
------ version 1.2-1 -----
-Initial release for Cygwin.
+----- version 1.99.0-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
