@@ -1,0 +1,12 @@
+inherit gnome2
+
+NAME="gtans"
+VERSION=1.99.0
+RELEASE=10
+CATEGORY="Games"
+SUMMARY="GTK+ tangram puzzle"
+DESCRIPTION="A GTK version of Tangram, an ancient chinese puzzle. The object
+is to put 7 geometric shapes together so as to form a given outline. All the
+pieces must be used and should not overlap."
+HOMEPAGE="http://gtans.sourceforge.net/"
+SRC_URI="mirror://sourceforge/gtans/gtans-${VERSION}.tar.bz2"
